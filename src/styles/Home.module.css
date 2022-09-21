@@ -1,9 +1,8 @@
-#components-layout-demo-side .logo {
-  height: 32px;
-  margin: 16px;
-  background: rgba(255, 255, 255, 0.3);
+#antd {
+  @import '~antd/es/style/core/index.less';
+  @import '~antd/es/style/themes/default.less';
 }
 
-.site-layout .site-layout-background {
-  background: #fff;
+.site-layout-background {
+  margin-left: 300px;
 }
