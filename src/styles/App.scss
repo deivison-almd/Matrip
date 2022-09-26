@@ -1,3 +1,11 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.bodyContainer {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +13,25 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.toolBar {
+  height: 60px;
+  .navIcon {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 35px;
+  }
+
+  .widgetIcon {
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .menuIcon {
+    color: #ffffff;
+    font-size: 30px;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
