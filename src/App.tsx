@@ -127,8 +127,8 @@ export default function PrimarySearchAppBar() {
 
   return (
     <>
-      <Box className="boxContainer" sx={{ flexGrow: 1 }}>
-        <AppBar className='bodyContainer' position="static">
+      <Box className="headerContainer">
+        <AppBar className="bodyContainer" position="static">
           <Toolbar className="toolBar">
             <Typography>
               <h3>MATRIP</h3>
@@ -144,15 +144,14 @@ export default function PrimarySearchAppBar() {
               </SearchIconWrapper>
               <StyledInputBase placeholder="Search…" />
             </Search>
-            <IconButton href='/'>
-                <HomeIcon className="navIcon" />
-              </IconButton>
-              <IconButton href="./hospedagem">
-                <HotelIcon className="navIcon" />
-              </IconButton>
+            <IconButton href="/">
+              <HomeIcon className="navIcon" />
+            </IconButton>
+            <IconButton href="./hospedagem">
+              <HotelIcon className="navIcon" />
+            </IconButton>
             <Box sx={{ flexGrow: 1 }} />
             <Box>
-              
               <IconButton>
                 <MailIcon className="widgetIcon" />
               </IconButton>

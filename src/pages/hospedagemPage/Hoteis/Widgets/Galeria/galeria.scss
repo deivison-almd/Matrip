@@ -1,0 +1,14 @@
+.layoutGaleria {
+  height: 700px;
+  width: 1400px;
+  border: 1px solid blue;
+  margin: 40px auto;
+  text-align: right;
+
+  .bodyGaleria {
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+  }
+}
